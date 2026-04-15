@@ -13,9 +13,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/zarcho5/frontend-project-44/issues"
   },
-  "homepage": "https://github.com/zarcho5/frontend-project-44#readme"
+  "homepage": "https://github.com/zarcho5/frontend-project-44#readme",
+  "bin": {
+  "brain-games": "bin/brain-games.js"
+}
 }
