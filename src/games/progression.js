@@ -5,7 +5,6 @@ const description = 'What number is missing in the progression?';
 const getRandomNumber = (min, max) =>
   Math.floor(Math.random() * (max - min + 1)) + min;
 
-// создаём прогрессию
 const createProgression = (start, step, length) => {
   const result = [];
 
